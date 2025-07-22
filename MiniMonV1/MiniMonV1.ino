@@ -9,9 +9,9 @@ U8G2_SSD1306_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE);
 // Servo setup
 Servo eyeServo;
 const int servoPin = 9;
-const int servoLeft = 60;
+const int servoLeft = 45;
 const int servoCenter = 90;
-const int servoRight = 120;
+const int servoRight = 135;
 bool servoAttached = false;
 
 // Eye box parameters
